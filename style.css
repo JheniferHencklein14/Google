@@ -1,0 +1,152 @@
+*{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+
+.fonte{
+    padding: 5px 5px;
+    display: flex;
+    display: inline-block;
+}
+
+header{
+    text-align: right;
+   
+    justify-content: right;
+    align-items: center;
+    display: flex;
+   
+   
+}
+
+.pontos{
+   
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.login{
+    background-color: #0b57d0;
+    border-radius: 30px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.img1:hover{
+    box-shadow: 0 0 5px rgb(133, 132, 132);
+    border-radius: 25px;
+}
+
+p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.google {
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center;     /* centraliza verticalmente */
+    width: 100%;             /* ocupa toda a largura da página */
+    height: 300px;           /* altura do container */
+}
+
+.google img {
+    width: 330px;  /* deixa a imagem menor (ajuste o valor que quiser) */
+    height: auto;  /* mantém a proporção da imagem */
+    margin-top: 100px;
+}
+
+.pesquisa input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+       background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+}
+
+/*-------------------------QUADRADO DE PESQUISA-------------------*/
+
+.pesquisa {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    padding: 0 16px;
+    height: 36px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+   
+    width: 600px;      /* largura definida */
+    margin: 11px auto; /* centraliza horizontalmente */
+   border-radius: 24px;
+   box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+}
+
+.pesquisa2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.caixa{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: #f7f8f9;
+    margin-left: 25px;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+/*------------------FOOTER----------------------*/
+
+.brasil{
+    padding: 15px 30px;
+    background-color: #f7f8f9;
+    margin-top: 110px;
+  }
+
+.footer {
+  background-color: #f7f8f9;
+  border-top: 1px solid #dadce0;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+}
+ 
+footer{
+position:fixed;
+bottom: 0;   /* cola no fundo da tela */
+width: 100%;
+
+}
+ 
+ 
+.rodape{
+    padding: 5px 20px;
+    display: flex;
+    display: inline-block; /* alinha em linha */
+    margin: 1px;  
+}
+ 
+.rodape2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;}
